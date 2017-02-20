@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It removed all irelevant information leaving only things that had changed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can look for changes to certain files to run down bugs that may not have 
+    been caught right away. Also keeping tract of added features etc.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You can organize your changes in a meaningful way. For instance only making 
+    commits when a certain feature is complete. As for cons, you may lose some work
+    if you fail to commit changes in a small window of time.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because certain features and aspects of the code are tied together. This allows
+    for roll-backs that affect all relevant files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log outputs an index of all the commits made and gives the id of the change,
+    the author, timestamp and comments for each commit. 
+    git diff lets you compare two different versions of a commit by inputing the two
+    different commit ids to produce an output similar to linux's diff    
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Making changes that may break an application can easily be rolled back and forth 
+    with git. This makes it far less likely that one would be fearful of making 
+    drastic changes to the code. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use Git to keep track of my development work for personal to
+    professional. 
